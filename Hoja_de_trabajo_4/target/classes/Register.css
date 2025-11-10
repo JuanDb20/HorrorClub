@@ -1,0 +1,70 @@
+/* Tarjeta blanca con borde redondeado */
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 20, 0.3, 0, 8);
+}
+
+.logo-text {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 32px;
+    -fx-fill: #000000;
+}
+
+/* Subtítulo */
+.section-title {
+    -fx-font-size: 14px;
+    -fx-text-fill: #222222;
+    -fx-font-weight: bold;
+}
+
+/* Campos de texto */
+.text-field {
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-padding: 10 14 10 14;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-background-color: #d8d8d8;
+    -fx-border-color: #4a90e2;
+    -fx-border-width: 2;
+}
+
+/* Botón principal */
+.primary-btn {
+    -fx-background-color: #3a78c9;
+    -fx-background-radius: 12;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200;
+    -fx-pref-height: 45;
+}
+
+.primary-btn:hover {
+    -fx-background-color: #2f64a7;
+}
+
+.secondary-btn {
+    -fx-background-color: #e5e5e5;
+    -fx-background-radius: 12;
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200;
+    -fx-pref-height: 45;
+    -fx-border-radius: 12;
+    -fx-border-color: #bfbfbf;
+    -fx-border-width: 1.5;
+}
+
+.secondary-btn:hover {
+    -fx-background-color: #d6d6d6;
+    -fx-border-color: #999999;
+}
+
+
